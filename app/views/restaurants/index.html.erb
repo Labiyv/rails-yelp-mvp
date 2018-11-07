@@ -1,0 +1,13 @@
+
+<h1>My fav Restaurants</h1>
+<div class="restaurants">
+  <% @restaurants.each  do |restaurant| %>
+  <div class="restaurants">
+
+    <a><%= link_to restaurant.name, restaurant_path(restaurant) %></a>
+
+  </div>
+  <% end %>
+  </div>
+
+
